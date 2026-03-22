@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos - Douglas Ayala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Galería de Fotos</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="portfolio">
+        <div class="container">
+            <h3>Agrega varias fotos</h3>
+            <p>Selecciona imágenes para subir (simulado en esta demo).</p>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="images">Seleccionar fotos:</label>
+                <input type="file" id="images" name="images" accept="image/*" multiple>
+                <button class="btn" type="submit">Subir fotos</button>
+            </form>
+
+            <p style="margin-top: 20px;">(Aquí podrías integrar un servidor para procesar y guardar imágenes.)</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Douglas AYALA - Construcciones</p>
+        </div>
+    </footer>
+</body>
+</html>
